@@ -1,1 +1,1 @@
-# react-redux-complete-fullstack
+# react-complete-fullstack
