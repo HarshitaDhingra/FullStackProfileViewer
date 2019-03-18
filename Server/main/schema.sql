@@ -25,7 +25,7 @@ CREATE TABLE comments (
   author VARCHAR REFERENCES users(username),
   user_id INT REFERENCES users(uid),
   post_id INT REFERENCES posts(pid),
-  date_created TIMESTAMP,
+  date_created TIMESTAMP
 );
 
 
