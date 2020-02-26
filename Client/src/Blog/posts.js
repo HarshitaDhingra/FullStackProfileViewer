@@ -76,14 +76,7 @@ class Posts extends Component {
     setTimeout(() => this.setState({opacity: 1}), 400 )
   }
 
-  add_posts_to_state = (posts) => {
-    this.setState({posts: [...posts]})
-    this.setState({num_posts: this.state.posts.length})
-    this.setState({page_range: this.state.num_posts/5})
 
-    this.slice_posts();
-    this.animate_posts();
-  }
 
   slice_posts = () => {
      const indexOfLastPost = this.state.activePage * this.state.posts_per_page
