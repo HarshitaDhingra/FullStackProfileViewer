@@ -2,7 +2,7 @@
 import { connect } from 'react-redux';
 
 import { Link } from 'react-router-dom';
-import * as ACTIONS from '../store/actions/actions';
+
 import axios from 'axios';
 import moment from 'moment';
 import Button from '@material-ui/core/Button';
