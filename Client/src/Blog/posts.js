@@ -14,6 +14,7 @@ import CardHeader from "@material-ui/core/CardHeader";
 
 import Pagination from "react-js-pagination";
 
+import '../App.css'
 
 
 
