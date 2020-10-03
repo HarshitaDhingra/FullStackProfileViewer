@@ -57,3 +57,4 @@ https://www.postgresql.org/
 
 ### (Optional) Set up auth0 
 You can optionally create your own auth0 app and subsitute the credentials in the Client/utils/auth.js file. You can also just use the default credentials I have provided. 
+# FullStackProfileViewer

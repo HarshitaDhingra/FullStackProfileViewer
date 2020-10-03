@@ -1,17 +1,16 @@
-var express = require('express')
-var router = express.Router()
-var pool = require('./db')
-
+var express = require('express');
+var router = express.Router();
+var pool = require('./db');
 
 /*
     POSTS ROUTES SECTION
 */
 
-router.get('/api/get/allposts', (req, res, next ) => {
-  pool.query("SELECT * FROM posts ORDER BY date_created DESC", (q_err, q_res) => {
+router.get('/api/get/allposts', function (req, res, next){
+  pool.query("SELECT * FROM posts ORDER BY date_created DESC", function(q_err, q_res){
       res.json(q_res.rows)
-  })
-})
+  });
+});
 
 
 // router.post('/api/post/posttodb', (req, res, next) => {
